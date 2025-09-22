@@ -1,0 +1,49 @@
+
+
+uv add
+uv remove
+uv tree
+
+
+
+python3 manage.py runserver
+python3 manage.py startapp apps
+./manage.py startapp apps
+
+./manage.py makemigrations
+./manage.py migrate
+./manage.py createsuperuser
+
+
+http status code
+1xx (information)
+2xx (success) - 200, 201, 204
+3xx (redirect)
+4xx (client error) 400, 401, 403, 404, 405
+5xx (server error) 500, 502
+
+
+request
+response
+
+http methods
+get - olish uchun
+post - yaratish yoki yuborish uchun
+delete - ochirish uchun
+put - ozgartirish
+patch - qisman ozgartirish
+
+
+product
+id
+name
+price
+description
+
+
+options
+head
+
+
+
+https://books.agiliq.com/projects/django-admin-cookbook/en/latest/
