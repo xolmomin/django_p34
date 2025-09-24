@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="uz">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <title>O'zbek ismlari</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #fafafa;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .box {
+            background: #fff;
+            padding: 20px 40px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        ol {
+            margin: 0;
+            padding: 0;
+        }
+
+        li {
+            margin: 6px 0;
+            font-size: 1.2rem;
+        }
+    </style>
+</head>
+<body>
+<div class="box">
+    <h2>Mahsulotlar</h2>
+    <ul>
+        {% for product in products %}
+            <li>
+                <a href="{% url 'product_detail_page' product.pk %}">
+                    ({{ product.id }}) {{ product.name }} - {{ product.price }}
+                    {% if product.is_premium %}
+                        ✅
+                    {% endif %}
+                </a>
+            </li>
+        {% endfor %}
+    </ul>
+</div>
+</body>
+</html>
