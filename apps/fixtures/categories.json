@@ -1,0 +1,128 @@
+[
+  {
+    "model": "apps.category",
+    "pk": 1,
+    "fields": {
+      "name": "Bolalar dunyosi",
+      "image": "categories/image/2025/09/26/bolalar.png",
+      "slug": "bolalar-dunyosi"
+    }
+  },
+  {
+    "model": "apps.category",
+    "pk": 2,
+    "fields": {
+      "name": "Ko'chmas mulk",
+      "image": "categories/image/2025/09/26/kochmas-mulk.png",
+      "slug": "kochmas-mulk"
+    }
+  },
+  {
+    "model": "apps.category",
+    "pk": 3,
+    "fields": {
+      "name": "Transport",
+      "image": "categories/image/2025/09/26/transport.png",
+      "slug": "transport"
+    }
+  },
+  {
+    "model": "apps.category",
+    "pk": 4,
+    "fields": {
+      "name": "Ish",
+      "image": "categories/image/2025/09/26/ish.png",
+      "slug": "ish"
+    }
+  },
+  {
+    "model": "apps.category",
+    "pk": 5,
+    "fields": {
+      "name": "Hayvonlar",
+      "image": "categories/image/2025/09/26/hayvonlar.png",
+      "slug": "hayvonlar"
+    }
+  },
+  {
+    "model": "apps.category",
+    "pk": 6,
+    "fields": {
+      "name": "Uy va bog'",
+      "image": "categories/image/2025/09/26/uy-bog.png",
+      "slug": "uy-va-bog"
+    }
+  },
+  {
+    "model": "apps.category",
+    "pk": 7,
+    "fields": {
+      "name": "Elektr jihozlari",
+      "image": "categories/image/2025/09/26/elektr-jihozlari.png",
+      "slug": "elektr-jihozlari"
+    }
+  },
+  {
+    "model": "apps.category",
+    "pk": 8,
+    "fields": {
+      "name": "Xizmatlar",
+      "image": "categories/image/2025/09/26/xizmatlar.png",
+      "slug": "xizmatlar"
+    }
+  },
+  {
+    "model": "apps.category",
+    "pk": 9,
+    "fields": {
+      "name": "Moda va stil",
+      "image": "categories/image/2025/09/26/moda-stil.png",
+      "slug": "moda-va-stil"
+    }
+  },
+  {
+    "model": "apps.category",
+    "pk": 10,
+    "fields": {
+      "name": "Xobbi, dam olish sport",
+      "image": "categories/image/2025/09/26/xobbi-sport.png",
+      "slug": "xobbi-dam-olish-sport"
+    }
+  },
+  {
+    "model": "apps.category",
+    "pk": 11,
+    "fields": {
+      "name": "Tekinga beraman",
+      "image": "categories/image/2025/09/26/tekina.png",
+      "slug": "tekina-beraman"
+    }
+  },
+  {
+    "model": "apps.category",
+    "pk": 12,
+    "fields": {
+      "name": "Ayirboshlash",
+      "image": "categories/image/2025/09/26/ayirboshlash.png",
+      "slug": "ayirboshlash"
+    }
+  },
+  {
+    "model": "apps.category",
+    "pk": 13,
+    "fields": {
+      "name": "Quruvchidan",
+      "image": "categories/image/2025/09/26/quruvchidan.png",
+      "slug": "quruvchidan"
+    }
+  },
+  {
+    "model": "apps.category",
+    "pk": 14,
+    "fields": {
+      "name": "Ta'lim ko'rgazmasi",
+      "image": "categories/image/2025/09/26/talim.png",
+      "slug": "talim-korgazmasi"
+    }
+  }
+]

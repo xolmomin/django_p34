@@ -2,9 +2,21 @@ from django.contrib.auth import authenticate, login, logout
 from django.contrib.auth.models import User
 from django.shortcuts import render, redirect
 
+from apps.models import Category
+
 
 def main_page(request):
-    return render(request, 'apps/main.html')
+    context = {
+        'categories': Category.objects.all()
+    }
+    return render(request, 'apps/main.html', context)
+
+
+def category_detail(request, slug):
+    context = {
+        'categories': Category.objects.all()
+    }
+    return render(request, 'apps/main.html', context)
 
 
 def login_page(request):

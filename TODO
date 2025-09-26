@@ -53,3 +53,35 @@ Bulk and custom actions
 product listi va product detailini qilish
 
 
+
+
+login, register, profile, main
+
+
+
+olx project
+1. search, viloyat, tuman, shahar
+2. top elon bolishi
+3. elon qoshish
+4. user balance
+5. elon ($, uzs da hisoblash)
+6. ru, uz tilli bolishi
+7. filter (ortacha), saralash
+8. elon listi (pagination), 3tadan top elon ichida chiqishi
+9. author,author elonlari, elon lokatsiya
+10. like, searchdagi history
+11. Telefon raqami yoki email kirish
+
+
+# homework
+https://claude.ai/
+https://chatgpt.com/
+https://v0.app/
+
+
+header (login joylari)
+asosiy page (category va tagida esa elonlar) https://www.olx.uz/
+login, register
+
+elon detail
+

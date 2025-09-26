@@ -6,13 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Asosiy sahifa</title>
     <link rel="stylesheet" href="{% static 'apps/css/style.css' %}">
+    <link rel="stylesheet" href="{% static 'apps/css/olx-style.css' %}">
 </head>
 <body>
 {% include 'apps/parts/header.html' %}
 
-<section class="container">
-    <h2>Xush kelibsiz!</h2>
-    <p>Bu asosiy sahifa. Siz login qilishingiz yoki ro‘yxatdan o‘tishingiz mumkin.</p>
+<section class="categories">
+    <h2>OLX e’lonlar taxtasidagi ruknlar</h2>
+    <div class="category-grid">
+
+        {% for category in categories %}
+            <a href="{% url 'category_detail' category.slug %}" class="category-item">
+                <img src="{{ category.image.url }}" alt="{{ category.name }}">
+                <p>{{ category.name }}</p>
+            </a>
+        {% endfor %}
+
+    </div>
 </section>
 </body>
 </html>
