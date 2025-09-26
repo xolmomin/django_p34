@@ -1,0 +1,27 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ro‘yxatdan o‘tish</title>
+    <link rel="stylesheet" href="{% static 'apps/css/style.css' %}">
+</head>
+<body>
+{% include 'apps/parts/header.html' %}
+
+<section class="form-container">
+    <h2>Ro‘yxatdan o‘tish</h2>
+    <form id="registerForm" method="POST" action="{% url 'register_page' %}">
+        {% csrf_token %}
+        <input type="text" id="regUser" name="first_name" placeholder="Foydalanuvchi ismi" required>
+        <input type="email" id="regEmail" name="email" placeholder="Email" required>
+        <input type="text" id="regEmail" name="username" placeholder="Username" required>
+        <input type="password" id="regPass" name="password" placeholder="Parol" required>
+        <button type="submit">Ro‘yxatdan o‘tish</button>
+    </form>
+    <p>Hisobingiz bormi? <a href="{% url 'login_page' %}">Kirish</a></p>
+</section>
+
+</body>
+</html>

@@ -1,0 +1,28 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil</title>
+    <link rel="stylesheet" href="{% static 'apps/css/style.css' %}">
+</head>
+<body>
+{% include 'apps/parts/header.html' %}
+
+<section class="container">
+    <h2>Profil sahifasi</h2>
+    <div id="profileInfo">
+        <p><strong>Foydalanuvchi:</strong> {{ user.username }}</p>
+        <p><strong>Email:</strong> {{ user.email }}</p>
+
+        <form method="post" action="{% url 'logout_page' %}">
+            {% csrf_token %}
+            <button type="submit">Chiqish</button>
+        </form>
+    </div>
+</section>
+
+<script src="{% static 'apps/js/script.js' %}"></script>
+</body>
+</html>

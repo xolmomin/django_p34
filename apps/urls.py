@@ -1,8 +1,12 @@
+from django.contrib.auth.views import LogoutView
 from django.urls import path
 
-from apps.views import product_list_page, product_detail_page
+from apps.views import main_page, register_page, login_page, profile_page, logout_page
 
 urlpatterns = [
-    path('', product_list_page, name='product_list_page'),
-    path('product/detail/<int:pk>', product_detail_page, name='product_detail_page'),
+    path('', main_page, name='main_page'),
+    path('register', register_page, name='register_page'),
+    path('login', login_page, name='login_page'),
+    path('profile', profile_page, name='profile_page'),
+    path('logout', logout_page, name='logout_page'),
 ]

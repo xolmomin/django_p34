@@ -1,0 +1,25 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kirish</title>
+    <link rel="stylesheet" href="{% static 'apps/css/style.css' %}">
+</head>
+<body>
+{% include 'apps/parts/header.html' %}
+
+<section class="form-container">
+    <h2>Kirish</h2>
+    <form id="loginForm" method="POST" action="{% url 'login_page' %}">
+        {% csrf_token %}
+        <input type="text" id="loginUser" name="username" placeholder="Username" required>
+        <input type="password" id="loginPass" name="password" placeholder="Password" required>
+        <button type="submit">Kirish</button>
+    </form>
+    <p>Hisobingiz yo‘qmi? <a href="{% url 'register_page' %}">Ro‘yxatdan o‘ting</a></p>
+</section>
+
+</body>
+</html>
