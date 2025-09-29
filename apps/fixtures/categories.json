@@ -5,7 +5,8 @@
     "fields": {
       "name": "Bolalar dunyosi",
       "image": "categories/image/2025/09/26/bolalar.png",
-      "slug": "bolalar-dunyosi"
+      "slug": "bolalar-dunyosi",
+      "background_color": "#ffe082"
     }
   },
   {
@@ -14,7 +15,8 @@
     "fields": {
       "name": "Ko'chmas mulk",
       "image": "categories/image/2025/09/26/kochmas-mulk.png",
-      "slug": "kochmas-mulk"
+      "slug": "kochmas-mulk",
+      "background_color": "#bbdefb"
     }
   },
   {
@@ -23,7 +25,8 @@
     "fields": {
       "name": "Transport",
       "image": "categories/image/2025/09/26/transport.png",
-      "slug": "transport"
+      "slug": "transport",
+      "background_color": "#c8e6c9"
     }
   },
   {
@@ -32,7 +35,8 @@
     "fields": {
       "name": "Ish",
       "image": "categories/image/2025/09/26/ish.png",
-      "slug": "ish"
+      "slug": "ish",
+      "background_color": "#ffe0b2"
     }
   },
   {
@@ -41,7 +45,8 @@
     "fields": {
       "name": "Hayvonlar",
       "image": "categories/image/2025/09/26/hayvonlar.png",
-      "slug": "hayvonlar"
+      "slug": "hayvonlar",
+      "background_color": "#f8bbd0"
     }
   },
   {
@@ -50,7 +55,8 @@
     "fields": {
       "name": "Uy va bog'",
       "image": "categories/image/2025/09/26/uy-bog.png",
-      "slug": "uy-va-bog"
+      "slug": "uy-va-bog",
+      "background_color": "#d1c4e9"
     }
   },
   {
@@ -59,7 +65,8 @@
     "fields": {
       "name": "Elektr jihozlari",
       "image": "categories/image/2025/09/26/elektr-jihozlari.png",
-      "slug": "elektr-jihozlari"
+      "slug": "elektr-jihozlari",
+      "background_color": "#b2dfdb"
     }
   },
   {
@@ -68,7 +75,8 @@
     "fields": {
       "name": "Xizmatlar",
       "image": "categories/image/2025/09/26/xizmatlar.png",
-      "slug": "xizmatlar"
+      "slug": "xizmatlar",
+      "background_color": "#ffccbc"
     }
   },
   {
@@ -77,7 +85,8 @@
     "fields": {
       "name": "Moda va stil",
       "image": "categories/image/2025/09/26/moda-stil.png",
-      "slug": "moda-va-stil"
+      "slug": "moda-va-stil",
+      "background_color": "#c5cae9"
     }
   },
   {
@@ -86,7 +95,8 @@
     "fields": {
       "name": "Xobbi, dam olish sport",
       "image": "categories/image/2025/09/26/xobbi-sport.png",
-      "slug": "xobbi-dam-olish-sport"
+      "slug": "xobbi-dam-olish-sport",
+      "background_color": "#f0f4c3"
     }
   },
   {
@@ -95,7 +105,8 @@
     "fields": {
       "name": "Tekinga beraman",
       "image": "categories/image/2025/09/26/tekina.png",
-      "slug": "tekina-beraman"
+      "slug": "tekina-beraman",
+      "background_color": "#ffecb3"
     }
   },
   {
@@ -104,7 +115,8 @@
     "fields": {
       "name": "Ayirboshlash",
       "image": "categories/image/2025/09/26/ayirboshlash.png",
-      "slug": "ayirboshlash"
+      "slug": "ayirboshlash",
+      "background_color": "#d7ccc8"
     }
   },
   {
@@ -113,16 +125,8 @@
     "fields": {
       "name": "Quruvchidan",
       "image": "categories/image/2025/09/26/quruvchidan.png",
-      "slug": "quruvchidan"
-    }
-  },
-  {
-    "model": "apps.category",
-    "pk": 14,
-    "fields": {
-      "name": "Ta'lim ko'rgazmasi",
-      "image": "categories/image/2025/09/26/talim.png",
-      "slug": "talim-korgazmasi"
+      "slug": "quruvchidan",
+      "background_color": "#cfd8dc"
     }
   }
 ]

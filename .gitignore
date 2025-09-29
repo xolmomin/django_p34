@@ -120,7 +120,6 @@ wheels/
 share/python-wheels/
 *.egg-info/
 **migrations**
-media
 .installed.cfg
 *.egg
 MANIFEST

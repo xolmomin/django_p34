@@ -2,12 +2,13 @@ from django.contrib.auth import authenticate, login, logout
 from django.contrib.auth.models import User
 from django.shortcuts import render, redirect
 
-from apps.models import Category
+from apps.models import Category, Advert
 
 
 def main_page(request):
     context = {
-        'categories': Category.objects.all()
+        'categories': Category.objects.all(),
+        'adverts': Advert.objects.all()
     }
     return render(request, 'apps/main.html', context)
 

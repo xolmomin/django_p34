@@ -1,0 +1,68 @@
+[
+  {
+    "model": "apps.advert",
+    "pk": 1,
+    "fields": {
+      "name": "Gantra 2017 1 evro",
+      "slug": "gantra-2017-1-evro",
+      "description": "Gantra mashinasi, 2017 yil, yaxshi holatda, tozaligi yuqori.",
+      "price": 95884670,
+      "view_count": 123,
+      "owner": 1,
+      "updated_at": "2025-09-26T10:00:00Z",
+      "created_at": "2025-09-25T08:30:00Z"
+    }
+  },
+  {
+    "model": "apps.advertimage",
+    "pk": 1,
+    "fields": {
+      "image": "adverts/images/2025/09/26/gantra.jpg",
+      "advert": 1
+    }
+  },
+  {
+    "model": "apps.advert",
+    "pk": 2,
+    "fields": {
+      "name": "Продается Дамас Damas 2024",
+      "slug": "prodaetsya-damas-damas-2024",
+      "description": "Yangi Damas 2024 yil, 46 000 km yurgan. Kelishiladi.",
+      "price": 91029750,
+      "view_count": 85,
+      "owner": 1,
+      "updated_at": "2025-09-26T09:00:00Z",
+      "created_at": "2025-09-24T12:40:00Z"
+    }
+  },
+  {
+    "model": "apps.advertimage",
+    "pk": 2,
+    "fields": {
+      "image": "adverts/images/2025/09/26/damas.jpg",
+      "advert": 2
+    }
+  },
+  {
+    "model": "apps.advert",
+    "pk": 3,
+    "fields": {
+      "name": "Kobalt avtomat 25 2025 LTZ",
+      "slug": "kobalt-avtomat-25-2025-ltz",
+      "description": "Yangi Kobalt avtomat, LTZ komplektatsiya, 2025 yil.",
+      "price": 150000000,
+      "view_count": 45,
+      "owner": 1,
+      "updated_at": "2025-09-26T11:00:00Z",
+      "created_at": "2025-09-23T14:20:00Z"
+    }
+  },
+  {
+    "model": "apps.advertimage",
+    "pk": 3,
+    "fields": {
+      "image": "adverts/images/2025/09/26/kobalt.jpg",
+      "advert": 3
+    }
+  }
+]

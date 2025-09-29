@@ -10,13 +10,13 @@ class User(AbstractUser):
 
 
 class Category(Model):
-    name_uz = CharField(max_length=255)
-    name_ru = CharField(max_length=255)
+    name = CharField(max_length=255)
     image = ImageField(upload_to='categories/image/%Y/%m/%d')
     slug = SlugField(unique=True)
+    background_color = CharField(max_length=20, default="#f5f5f5", help_text="Hex rang kodi, masalan: #ffcc00")
 
     def save(self, *, force_insert=False, force_update=False, using=None, update_fields=None):
-        self.slug = slugify(self.name_ru)
+        self.slug = slugify(self.name)
         super().save(force_insert=force_insert, force_update=force_update, using=using, update_fields=update_fields)
 
 
